@@ -1,7 +1,7 @@
 # claude.skill
 
-AI 코딩 에이전트(OpenAI Codex 등)에서 사용하는 **Figma 연동 스킬 및 커맨드** 모음입니다.
-Figma MCP 서버를 통해 디자인 시안을 분석하고, 프로덕션 코드로 변환하는 워크플로우를 제공합니다.
+AI 코딩 에이전트에서 사용하는 **스킬, 커맨드, 플러그인** 모음입니다.
+Figma MCP 연동 워크플로우와 bkit 개발 프레임워크를 포함합니다.
 
 ## 디렉토리 구조
 
@@ -120,6 +120,101 @@ http_headers = { "X-Figma-Region" = "us-east-1" }
 export FIGMA_OAUTH_TOKEN="<your-token>"
 ```
 
+## bkit 플러그인 (Vibecoding Kit)
+
+[popup-studio-ai/bkit-claude-code](https://github.com/popup-studio-ai/bkit-claude-code) — Claude Code용 종합 개발 프레임워크입니다.
+
+| 항목 | 내용 |
+|------|------|
+| 버전 | 1.5.5 |
+| 개발사 | POPUP STUDIO PTE. LTD. |
+| 라이선스 | Apache-2.0 |
+| 언어 지원 | 한국어, 영어, 일본어, 중국어, 스페인어, 프랑스어, 독일어, 이탈리아어 |
+
+### 설치
+
+```bash
+# 마켓플레이스 등록
+/plugin marketplace add popup-studio-ai/bkit-claude-code
+
+# 플러그인 설치
+/plugin install bkit
+```
+
+### 핵심 개념
+
+- **PDCA 워크플로우** — Plan-Do-Check-Act 방법론 기반 개발 사이클
+- **프로젝트 레벨** — Starter(정적), Dynamic(풀스택), Enterprise(마이크로서비스)
+- **CTO-Led Agent Teams** — 최대 5개 에이전트가 병렬로 협업하는 팀 오케스트레이션
+- **9단계 개발 파이프라인** — 스키마 정의부터 배포까지 구조화된 개발 프로세스
+
+### Skills (27개)
+
+| 카테고리 | 스킬 | 설명 |
+|----------|------|------|
+| **핵심** | `pdca`, `bkit-rules`, `bkit-templates`, `plan-plus` | PDCA 사이클, 규칙, 템플릿 |
+| **프로젝트** | `starter`, `dynamic`, `enterprise` | 프로젝트 레벨별 가이드 |
+| **파이프라인** | `phase-1-schema` ~ `phase-9-deployment` | 9단계 개발 파이프라인 |
+| **bkend.ai** | `bkend-quickstart`, `bkend-auth`, `bkend-data`, `bkend-storage`, `bkend-cookbook` | BaaS 플랫폼 연동 |
+| **유틸리티** | `code-review`, `claude-code-learning`, `zero-script-qa`, `development-pipeline` | 코드 리뷰, 학습, QA |
+| **플랫폼** | `desktop-app`, `mobile-app` | 데스크톱/모바일 앱 개발 |
+
+### Agents (16개)
+
+| 에이전트 | 역할 |
+|----------|------|
+| `cto-lead` | 프로젝트 리더, 팀 오케스트레이션 |
+| `frontend-architect` | 프론트엔드 아키텍처 설계 |
+| `security-architect` | 보안 검토 및 취약점 분석 |
+| `code-analyzer` | 코드 품질 분석 및 리뷰 |
+| `design-validator` | 디자인-구현 일치 검증 |
+| `gap-detector` | 설계-구현 갭 분석 |
+| `qa-strategist` | QA 전략 수립 |
+| `qa-monitor` | 로그 기반 모니터링 |
+| `product-manager` | 요구사항 정의 및 기능 스펙 |
+| `report-generator` | 보고서 생성 |
+| `starter-guide` | Starter 레벨 가이드 |
+| `bkend-expert` | Dynamic 레벨 BaaS 전문가 |
+| `enterprise-expert` | Enterprise 레벨 전문가 |
+| `infra-architect` | 인프라 아키텍처 설계 |
+| `pipeline-guide` | 개발 파이프라인 안내 |
+| `pdca-iterator` | PDCA 반복 실행 |
+
+### 프로젝트 레벨별 구성
+
+| | Starter | Dynamic | Enterprise |
+|---|---------|---------|------------|
+| **용도** | 정적 웹사이트 | 풀스택 앱 | 마이크로서비스 |
+| **기본 에이전트** | starter-guide | bkend-expert | enterprise-expert |
+| **팀 규모** | - | 최대 3명 | 최대 5명 |
+| **출력 스타일** | bkit-learning | bkit-pdca-guide | bkit-enterprise |
+
+### Hook 이벤트
+
+| 이벤트 | 설명 |
+|--------|------|
+| `SessionStart` | 세션 시작 시 컨텍스트 초기화 |
+| `PreToolUse` / `PostToolUse` | 도구 사용 전후 처리 |
+| `UserPromptSubmit` | 사용자 입력 시 의도 감지 |
+| `PreCompact` | 컨텍스트 압축 전 스냅샷 |
+| `TaskCompleted` | 태스크 완료 시 자동 진행 |
+| `TeammateIdle` | 팀원 유휴 시 재할당 |
+| `SubagentStart` / `SubagentStop` | 서브에이전트 생명주기 |
+| `Stop` | 세션 종료 처리 |
+
+### 설정 파일
+
+설치 후 프로젝트 내 `.claude/settings.json`에 자동 등록됩니다.
+
+```json
+{
+  "enabledPlugins": {
+    "bkit@bkit-marketplace": true
+  }
+}
+```
+
 ## License
 
 각 스킬 디렉토리의 `LICENSE.txt`를 참고하세요.
+bkit 플러그인은 Apache-2.0 라이선스입니다.
