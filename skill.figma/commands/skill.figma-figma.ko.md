@@ -79,5 +79,5 @@ allowed-tools:
 
 | 문서 | 내용 |
 |------|------|
-| `references/figma-mcp-config.md` | 설정, 검증, 문제 해결, 링크 기반 사용 안내 |
-| `references/figma-tools-and-prompts.md` | 도구 카탈로그 및 프롬프트 패턴 |
+| `references/figma-mcp-config.ko.md` | 설정, 검증, 문제 해결, 링크 기반 사용 안내 |
+| `references/figma-tools-and-prompts.ko.md` | 도구 카탈로그 및 프롬프트 패턴 |
