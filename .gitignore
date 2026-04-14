@@ -1,1 +1,9 @@
 .DS_Store
+
+# Cloned external repos (local only)
+Problem-Based-SRS/
+skills/
+spec-kit-brownfield-extensions/
+sf-skills/
+knowledge-work-plugins/
+mattpocock-skills/
