@@ -1,0 +1,13 @@
+# Knowledge Work Plugin Skills - design
+
+업무 도메인별 지식 작업 플러그인과 스킬입니다.
+
+| 스킬 | 설명 | 상세 | 원본 |
+|---|---|---|---|
+| `accessibility-review` | Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with "audit accessibility", "check a11y", "is this accessible?", or when reviewing a design for color contrast, keyboard navigation, touch target size, or screen reader behavior before handoff. | [상세](accessibility-review-9341438.md) | `knowledge-work-plugins/design/skills/accessibility-review/SKILL.md` |
+| `design-critique` | Get structured design feedback on usability, hierarchy, and consistency. Trigger with "review this design", "critique this mockup", "what do you think of this screen?", or when sharing a Figma link or screenshot for feedback at any stage from exploration to f... | [상세](design-critique-774507e.md) | `knowledge-work-plugins/design/skills/design-critique/SKILL.md` |
+| `design-handoff` | Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases, and animation details. | [상세](design-handoff-e50a872.md) | `knowledge-work-plugins/design/skills/design-handoff/SKILL.md` |
+| `design-system` | Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's variants, states, and accessibility notes, or designing a new pattern that fits the exis... | [상세](design-system-2455c28.md) | `knowledge-work-plugins/design/skills/design-system/SKILL.md` |
+| `research-synthesis` | Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NPS responses that need to be distilled into patterns, user segments, and prioritized next... | [상세](research-synthesis-299df6e.md) | `knowledge-work-plugins/design/skills/research-synthesis/SKILL.md` |
+| `user-research` | Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability test", "survey design", "research questions", or when the user needs help with any aspect of understanding their users through research. | [상세](user-research-ce453e6.md) | `knowledge-work-plugins/design/skills/user-research/SKILL.md` |
+| `ux-copy` | Write or review UX copy — microcopy, error messages, empty states, CTAs. Trigger with "write copy for", "what should this button say?", "review this error message", or when naming a CTA, wording a confirmation dialog, filling an empty state, or writing onboar... | [상세](ux-copy-96ea592.md) | `knowledge-work-plugins/design/skills/ux-copy/SKILL.md` |

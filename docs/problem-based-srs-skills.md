@@ -1,0 +1,27 @@
+# Problem-Based SRS Skills
+
+비즈니스 문제에서 요구사항까지 추적하는 문제 기반 SRS 방법론입니다.
+
+## 요약
+
+- 스킬 수: 9
+- 원본 위치: `Problem-Based-SRS`
+- 스킬별 상세 문서: `docs/skills/problem-based-srs/`
+
+| 영역 | 스킬 수 | 상세 |
+|---|---:|---|
+| Problem-Based-SRS | 9 | [상세 폴더](skills/problem-based-srs/problem-based-srs/README.md) |
+
+## Problem-Based-SRS
+
+| 스킬 | 설명 | 상세 | 원본 |
+|---|---|---|---|
+| `business-context` | Establish structured business context and project principles before problem discovery. Use as Step 0 of Problem-Based SRS to capture project identity, business principles, stakeholders, domain boundaries, and success criteria that feed into Customer Problems... | [상세](skills/problem-based-srs/problem-based-srs/business-context-03c6184.md) | `Problem-Based-SRS/skills/business-context/SKILL.md` |
+| `complexity-analysis` | Analyze specification quality using Axiomatic Design principles. Optional advanced validation for critical systems. Evaluates independence, completeness, and information content of requirements. | [상세](skills/problem-based-srs/problem-based-srs/complexity-analysis-c161b56.md) | `Problem-Based-SRS/skills/complexity-analysis/SKILL.md` |
+| `customer-needs` | Specify Customer Needs (CN) that define WHAT outcomes software must provide to solve Customer Problems. Use after Software Glance to translate problems into needs. Step 3 of Problem-Based SRS methodology. | [상세](skills/problem-based-srs/problem-based-srs/customer-needs-c339922.md) | `Problem-Based-SRS/skills/customer-needs/SKILL.md` |
+| `customer-problems` | Identify and document Customer Problems (CP) from business context. Use when starting requirements engineering or when stakeholders describe solutions instead of problems. Step 1 of Problem-Based SRS methodology. | [상세](skills/problem-based-srs/problem-based-srs/customer-problems-3354ab2.md) | `Problem-Based-SRS/skills/customer-problems/SKILL.md` |
+| `functional-requirements` | Generate Functional Requirements (FR) and Non-Functional Requirements (NFR) from Customer Needs and Software Vision. Creates individual requirement files with traceability. Step 5 of Problem-Based SRS methodology. | [상세](skills/problem-based-srs/problem-based-srs/functional-requirements-9f3ac9f.md) | `Problem-Based-SRS/skills/functional-requirements/SKILL.md` |
+| `problem-based-srs` | Complete Problem-Based Software Requirements Specification methodology following Gorski & Stadzisz research. Use when you need to perform requirements engineering from business problems to functional requirements with full traceability. | [상세](skills/problem-based-srs/problem-based-srs/problem-based-srs-7ce95b4.md) | `Problem-Based-SRS/skills/problem-based-srs/SKILL.md` |
+| `software-glance` | Create the first abstract representation of a software solution from Customer Problems. Use after identifying CPs to design high-level system boundaries and components. Step 2 of Problem-Based SRS methodology. | [상세](skills/problem-based-srs/problem-based-srs/software-glance-0aed99a.md) | `Problem-Based-SRS/skills/software-glance/SKILL.md` |
+| `software-vision` | Transform Software Glance and Customer Needs into a detailed Software Vision with positioning, stakeholders, features, and architecture. Use after Customer Needs. Step 4 of Problem-Based SRS methodology. | [상세](skills/problem-based-srs/problem-based-srs/software-vision-94a241d.md) | `Problem-Based-SRS/skills/software-vision/SKILL.md` |
+| `zigzag-validator` | Validate traceability and consistency across Customer Problems, Customer Needs, and Functional Requirements domains. Use to check completeness, identify gaps, and ensure all requirements trace to real business problems. | [상세](skills/problem-based-srs/problem-based-srs/zigzag-validator-f82e48f.md) | `Problem-Based-SRS/skills/zigzag-validator/SKILL.md` |

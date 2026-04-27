@@ -1,0 +1,21 @@
+[submodule "Problem-Based-SRS"]
+	path = Problem-Based-SRS
+	url = https://github.com/RafaelGorski/Problem-Based-SRS.git
+[submodule "knowledge-work-plugins"]
+	path = knowledge-work-plugins
+	url = https://github.com/anthropics/knowledge-work-plugins.git
+[submodule "mattpocock-skills"]
+	path = mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+[submodule "sf-skills"]
+	path = sf-skills
+	url = https://github.com/Jaganpro/sf-skills.git
+[submodule "skills"]
+	path = skills
+	url = https://github.com/anthropics/skills.git
+[submodule "spec-kit-brownfield-extensions"]
+	path = spec-kit-brownfield-extensions
+	url = https://github.com/wcpaxx/spec-kit-brownfield-extensions.git
+[submodule "andrej-karpathy-skills"]
+	path = andrej-karpathy-skills
+	url = https://github.com/forrestchang/andrej-karpathy-skills.git

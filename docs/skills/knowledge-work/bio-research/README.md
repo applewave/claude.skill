@@ -1,0 +1,12 @@
+# Knowledge Work Plugin Skills - bio-research
+
+업무 도메인별 지식 작업 플러그인과 스킬입니다.
+
+| 스킬 | 설명 | 상세 | 원본 |
+|---|---|---|---|
+| `instrument-data-to-allotrope` | Convert laboratory instrument output files (PDF, CSV, Excel, TXT) to Allotrope Simple Model (ASM) JSON format or flattened 2D CSV. Use this skill when scientists need to standardize instrument data for LIMS systems, data lakes, or downstream analysis. Support... | [상세](instrument-data-to-allotrope-3fbcdd4.md) | `knowledge-work-plugins/bio-research/skills/instrument-data-to-allotrope/SKILL.md` |
+| `nextflow-development` | Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on sequencing data. Use when analyzing RNA-seq, WGS/WES, or ATAC-seq data—either local FASTQs or public datasets from GEO/SRA. Triggers on nf-core, Nextflow, FASTQ analysis, variant calling, gene e... | [상세](nextflow-development-fbe29c1.md) | `knowledge-work-plugins/bio-research/skills/nextflow-development/SKILL.md` |
+| `scientific-problem-selection` | This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting stuck projects, or strategic scientific decisions. Use this skill when users ask to pitch a new research idea, work through a project proble... | [상세](scientific-problem-selection-7b60695.md) | `knowledge-work-plugins/bio-research/skills/scientific-problem-selection/SKILL.md` |
+| `scvi-tools` | Deep learning for single-cell analysis using scvi-tools. This skill should be used when users need (1) data integration and batch correction with scVI/scANVI, (2) ATAC-seq analysis with PeakVI, (3) CITE-seq multi-modal analysis with totalVI, (4) multiome RNA+... | [상세](scvi-tools-078e7ae.md) | `knowledge-work-plugins/bio-research/skills/scvi-tools/SKILL.md` |
+| `single-cell-rna-qc` | Performs quality control on single-cell RNA-seq data (.h5ad or .h5 files) using scverse best practices with MAD-based filtering and comprehensive visualizations. Use when users request QC analysis, filtering low-quality cells, assessing data quality, or follo... | [상세](single-cell-rna-qc-2f347f8.md) | `knowledge-work-plugins/bio-research/skills/single-cell-rna-qc/SKILL.md` |
+| `start` | Set up your bio-research environment and explore available tools. Use when first getting oriented with the plugin, checking which literature, drug-discovery, or visualization MCP servers are connected, or surveying available analysis skills before starting a... | [상세](start-93ef39d.md) | `knowledge-work-plugins/bio-research/skills/start/SKILL.md` |
