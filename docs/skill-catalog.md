@@ -9,13 +9,14 @@
 | Figma Skills | `skill.figma`, `skill.figma-implement-design` | 3 | [보기](figma-skills.md) | [보기](skills/figma/README.md) |
 | bkit Skills | `claude.bkit` | 27 | [보기](bkit-skills.md) | [보기](skills/bkit/README.md) |
 | Karpathy Guidelines Skills | `andrej-karpathy-skills` | 1 | [보기](karpathy-guidelines-skills.md) | [보기](skills/karpathy/README.md) |
+| Mafia Code-Review Harness | `mafia-codereview-harness` | 0 | [보기](mafia-codereview-harness.md) | [커맨드](plugin-commands/mafia-codereview/README.md) |
 | Problem-Based SRS Skills | `Problem-Based-SRS` | 9 | [보기](problem-based-srs-skills.md) | [보기](skills/problem-based-srs/README.md) |
 | Anthropic Skills | `skills` | 18 | [보기](anthropic-skills.md) | [보기](skills/anthropic/README.md) |
 | Knowledge Work Plugin Skills | `knowledge-work-plugins` | 181 | [보기](knowledge-work-plugin-skills.md) | [보기](skills/knowledge-work/README.md) |
 | Matt Pocock Skills | `mattpocock-skills` | 19 | [보기](mattpocock-skills.md) | [보기](skills/mattpocock/README.md) |
 | Salesforce Skills | `sf-skills` | 36 | [보기](salesforce-skills.md) | [보기](skills/salesforce/README.md) |
 | Spec Kit Brownfield Extension Skills | `spec-kit-brownfield-extensions` | 2 | [보기](spec-kit-brownfield-skills.md) | [보기](skills/spec-kit-brownfield/README.md) |
-| Commands | `commands/`, `commands.figma/` | 8 | [보기](commands.md) | - |
+| Commands | `commands/`, `commands.figma/`, `mafia-codereview-harness/plugin/commands/` | 15 | [보기](commands.md) | [플러그인 커맨드](plugin-commands/mafia-codereview/README.md) |
 
 ## 추천 진입점
 
@@ -24,6 +25,7 @@
 | Figma 화면을 코드로 구현 | [Figma Skills](figma-skills.md) |
 | 새 개발 프로젝트를 구조화 | [bkit Skills](bkit-skills.md) |
 | LLM 코딩 행동 원칙 적용 | [Karpathy Guidelines Skills](karpathy-guidelines-skills.md) |
+| 코드리뷰 파이프라인 자동화 | [Mafia Code-Review Harness](mafia-codereview-harness.md) |
 | 요구사항을 문제 중심으로 정리 | [Problem-Based SRS Skills](problem-based-srs-skills.md) |
 | 업무 문서/분석/리서치 자동화 | [Knowledge Work Plugin Skills](knowledge-work-plugin-skills.md) |
 | PRD 작성, 이슈 분해, TDD | [Matt Pocock Skills](mattpocock-skills.md) |

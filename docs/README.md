@@ -7,6 +7,7 @@
 - [Figma Skills](figma-skills.md) - Figma MCP 기반 디자인 분석, 구현, 검증 워크플로우입니다.
 - [bkit Skills](bkit-skills.md) - PDCA 기반 AI 네이티브 개발 프레임워크입니다.
 - [Karpathy Guidelines Skills](karpathy-guidelines-skills.md) - LLM 코딩 실수를 줄이기 위한 Karpathy식 행동 가이드라인입니다.
+- [Mafia Code-Review Harness](mafia-codereview-harness.md) - 설계의도, 평가기준, PR 본문, 코드리뷰, 리뷰 반영을 자동화하는 Claude Code 플러그인입니다.
 - [Problem-Based SRS Skills](problem-based-srs-skills.md) - 비즈니스 문제에서 요구사항까지 추적하는 문제 기반 SRS 방법론입니다.
 - [Anthropic Skills](anthropic-skills.md) - Anthropic 공식 범용 스킬 모음입니다.
 - [Knowledge Work Plugin Skills](knowledge-work-plugin-skills.md) - 업무 도메인별 지식 작업 플러그인과 스킬입니다.
@@ -15,6 +16,7 @@
 - [Spec Kit Brownfield Extension Skills](spec-kit-brownfield-skills.md) - 기존 시스템에 Spec Kit 방식을 적용하기 위한 확장 스킬입니다.
 - [Commands](commands.md) - slash command 목록
 - [Skill Catalog](skill-catalog.md) - 전체 요약과 전체 스킬 색인
+- [Mafia Code-Review Commands](plugin-commands/mafia-codereview/README.md) - 코드리뷰 하네스 커맨드 상세 문서
 
 ## 스킬별 상세 문서
 
@@ -28,3 +30,7 @@
 - [Matt Pocock Skills 상세](skills/mattpocock/README.md)
 - [Salesforce Skills 상세](skills/salesforce/README.md)
 - [Spec Kit Brownfield Extension Skills 상세](skills/spec-kit-brownfield/README.md)
+
+## 플러그인 커맨드 상세 문서
+
+- [Mafia Code-Review Commands](plugin-commands/mafia-codereview/README.md)
